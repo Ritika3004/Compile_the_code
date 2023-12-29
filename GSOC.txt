@@ -1,0 +1,11 @@
+1. Install Git and Github
+2. SETUP
+    git config --global user.name "[firstname lastname]"
+    git config --global user.email "[valid.email]"
+    git congig --global color.ui auto
+3. SETUO & UNIT
+    -->initializing an existing directory as Git repository
+        git init
+    -->retrieve an entire repository from a hosted location via URL
+        git clone [url]
+ 
