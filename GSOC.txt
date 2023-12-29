@@ -1,17 +1,20 @@
 1. Install Git and Github
 
-2. SETUP
+
+After installing git and github here is some popular git command to use
+
+1. SETUP
     git config --global user.name "[firstname lastname]"
     git config --global user.email "[valid.email]"
     git congig --global color.ui auto
 
-3. SETUO & UNIT
+2. SETUO & UNIT
     initializing an existing directory as Git repository
         git init
     retrieve an entire repository from a hosted location via URL
         git clone [url]
  
-4. STAGE & SNAPSHOT   
+3. STAGE & SNAPSHOT   
     Show modified files in working directory, staged for your next commit
         git status
     add file as it looks now to your next commit(stage)
@@ -25,7 +28,7 @@
     commit your staged content as a new commit snapshot
         git commit -m "[descriptive message]"
 
-5. BRANCH & MERGE
+4. BRANCH & MERGE
     Get your current branch 
         git branch
     create a new branch at the current commit
